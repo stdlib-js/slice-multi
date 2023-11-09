@@ -257,6 +257,13 @@ console.log( JSON.stringify( o ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/ndarray-ctor`][@stdlib/ndarray/ctor]</span><span class="delimiter">: </span><span class="description">multidimensional array constructor.</span>
+-   <span class="package-name">[`@stdlib/slice-ctor`][@stdlib/slice/ctor]</span><span class="delimiter">: </span><span class="description">slice constructor.</span>
+
 </section>
 
 <!-- /.related -->
@@ -337,6 +344,10 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
 [@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
+
+<!-- <related-links> -->
+
+<!-- </related-links> -->
 
 </section>
 
