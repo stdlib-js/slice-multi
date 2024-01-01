@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/slice-multi
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-MultiSlice = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var MultiSlice = require( 'path/to/vendor/umd/slice-multi/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.MultiSlice;
-})();
-</script>
+var MultiSlice = require( '@stdlib/slice-multi' );
 ```
 
 <a name="main"></a>
@@ -227,14 +219,9 @@ var o = ms.toJSON();
 
 <!-- eslint-disable new-cap -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var S = require( '@stdlib/slice-ctor' );
+var MultiSlice = require( '@stdlib/slice-multi' );
 
 // Alias `undefined` for more concise expressions:
 var _ = void 0;
@@ -252,11 +239,6 @@ console.log( str );
 var o = s.toJSON();
 console.log( JSON.stringify( o ) );
 // => '{"type":"MultiSlice","data":[{"type":"Slice","data":[9,-10,-1]},{"type":"Slice","data":[2,null,2]},2,{"type":"Slice","data":[5,null,2]},3,null]}'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -312,7 +294,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -357,11 +339,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [json]: http://www.json.org/
 
-[@stdlib/ndarray]: https://github.com/stdlib-js/ndarray/tree/umd
+[@stdlib/ndarray]: https://github.com/stdlib-js/ndarray
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/umd
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
-[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor/tree/umd
+[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
 
 <!-- <related-links> -->
 
