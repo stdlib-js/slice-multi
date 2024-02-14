@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
+import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@v0.2.0-deno/mod.js';
 ```
 
 <a name="main"></a>
@@ -205,7 +205,7 @@ var o = ms.toJSON();
 
 ```javascript
 import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
+import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@v0.2.0-deno/mod.js';
 
 // Alias `undefined` for more concise expressions:
 var _ = void 0;
