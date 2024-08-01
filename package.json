@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-integer": "^0.2.1",
+    "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-null": "^0.2.2",
-    "@stdlib/assert-is-slice": "^0.2.1",
+    "@stdlib/assert-is-slice": "^0.2.2",
     "@stdlib/assert-is-undefined": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
@@ -53,14 +53,14 @@
     "@stdlib/assert-instance-of": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/slice-ctor": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
