@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-multi/tags). For example,
+
+```javascript
 import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@v0.2.3-deno/mod.js';
 ```
 
@@ -205,7 +210,7 @@ var o = ms.toJSON();
 
 ```javascript
 import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@v0.2.3-deno/mod.js';
+import MultiSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
 
 // Alias `undefined` for more concise expressions:
 var _ = void 0;
