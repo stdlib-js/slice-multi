@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-null": "^0.2.3",
-    "@stdlib/assert-is-slice": "^0.2.2",
+    "@stdlib/assert-is-slice": "^0.2.3",
     "@stdlib/assert-is-undefined": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
@@ -50,17 +50,17 @@
   "devDependencies": {
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-has-property": "^0.2.3",
-    "@stdlib/assert-instance-of": "^0.3.0",
+    "@stdlib/assert-instance-of": "^0.3.1",
     "@stdlib/assert-is-array": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
-    "@stdlib/assert-is-plain-object": "^0.2.2",
+    "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/slice-ctor": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
